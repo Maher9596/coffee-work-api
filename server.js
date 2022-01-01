@@ -10,7 +10,7 @@ app.use(express.urlencoded({extended: true}))
 app.use(express.json())
 app.use(cors())
 
-app.use('/posts', postRoutes)
+app.use('/', postRoutes)
 app.use('/', (req, res) => {
     res.send("We r up")
 })
