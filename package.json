@@ -1,7 +1,6 @@
 {
   "name": "pics-api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -15,5 +14,15 @@
     "express": "^4.17.2",
     "mongoose": "^6.1.4",
     "nodemon": "^2.0.15"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maher9596/coffee-work-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Maher9596/coffee-work-api/issues"
+  },
+  "homepage": "https://github.com/Maher9596/coffee-work-api#readme",
+  "description": ""
 }
